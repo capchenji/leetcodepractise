@@ -6,7 +6,7 @@
 # while N-2*i-1>=0:
 #   j = i
 #   print(j)
-  
+
 #   print('i==='+str(i))
 #   print('hhahaha' , str(N-2*i-1))
 #   M = N - 2*i
@@ -44,7 +44,7 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        N = len(matrix[0]) 
+        N = len(matrix[0])
         i = 0
         while N-2*i-1>=0:
           j = i
@@ -61,7 +61,7 @@ class Solution:
           i += 1
 
         return matrix
-    
+
 # (0,0) -> (0,4) ->(4,4) ->(4,0) ->(0,0)
 
 # (0,1) -> (1,4) ->(4,3)->(3,0) ->(0,1)
@@ -77,6 +77,3 @@ class Solution:
 # (1,2) -> (2,3) -> (3,2) ->(2,1) ->(1,2)
 
 # N - 2*j -1
-        
-            
-            
